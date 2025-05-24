@@ -1,3 +1,2 @@
 # Monster_Battle_Game
-This is a console-based monster battle simulation written in Java.  
-It was developed as part of a university programming assignment and features elements such as custom actions, monster status management, turn-based battles, and debug/test configurations.
+This project implements a turn-based strategy game where monsters compete against each other in battle. The objective is to defeat opposing monsters through tactical selection of actions. The game includes a basic type system for monsters and their actions, status effects, and mechanics for boosting or weakening monster stats. Monsters and their actions are not hardcoded—they are loaded dynamically from an external input file, allowing for flexible and complex interactions.

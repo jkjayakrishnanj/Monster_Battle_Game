@@ -8,3 +8,13 @@ OOP Principles: Extensive use of record, enum, and interfaces to represent game 
 State Management: Each monster's state is encapsulated in MonsterStatus, which manages health, stat boosts/nerfs, status conditions, and protection.
 
 Turn Phases: Game loop is divided into selection and execution phases handled via Competition.step().
+## Algorithms & Concepts Used
+Custom Recursive Descent Parser for game config files
+
+Battle Mechanics Engine: Implements damage calculations based on effectiveness, critical hits, stat scaling, and randomness
+
+Effect Queueing System: Repeats, nested effects, and hit-rate logic with deterministic or probabilistic resolution
+
+Protection Buff System: Manages turn-based stat or HP protection via effect queues
+
+Command Routing System: Custom CommandManager implements a flexible CLI interpreter with hybrid/fixed/variable patterns
